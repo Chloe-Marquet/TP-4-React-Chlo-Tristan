@@ -57,7 +57,7 @@ quantifie un nombre illimité de fois les caractère précédent
 
 @ doit correspondre à ce caractère littéralement.
 
-\. correspond au caractère point, l’antislash permet d’échapper afin qu’il soit bien considéré comme un caractère.
+backslash. correspond au caractère point, l’antislash permet d’échapper afin qu’il soit bien considéré comme un caractère.
 
 $ affirme la position à la fin de la chaine.
 

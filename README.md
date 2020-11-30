@@ -46,12 +46,19 @@ Lorsque le champ nom est modifié, on rentre dans la fonction Namefield en modif
 La regex /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
 ^ affirme la position au début de la chaine. 
+
 a-zA-Z accepte les caractères de a à z en minuscule et majuscule.
+
 0-9 accepte les chiffres de 0 à 9
+
 .!#$%&'*+/=?^_`{|}~- accepte un seul caractère de cette liste
+
 quantifie un nombre illimité de fois les caractère précédent
+
 @ doit correspondre à ce caractère littéralement.
+
 \. correspond au caractère point, l’antislash permet d’échapper afin qu’il soit bien considéré comme un caractère.
+
 $ affirme la position à la fin de la chaine.
 
 ### 8)
